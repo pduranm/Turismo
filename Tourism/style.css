@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 95vh;
+  text-align: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Iglesia_de_Santa_Mar%C3%ADa_del_Mercado%2C_Alburquerque.jpg/1280px-Iglesia_de_Santa_Mar%C3%ADa_del_Mercado%2C_Alburquerque.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-family: helvetica;
+}
+
+nav {
+  background: #000;
+  overflow: hidden;
+  padding: 20px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  z-index: 20;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  min-height: 50px;
+  padding: 10px;
+}
+
+.yellow-section {
+  min-height: 500px;
+  background: #fce3a4;
+  padding: 100px;
+}
+.pd-10 {
+  padding: 58px;
+  color:black;
+  border-color: rgb(0, 0, 0);
+}
+
+.centrado {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
